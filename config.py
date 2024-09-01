@@ -14,7 +14,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/982bc093a7f1aaa792d3a.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6321064549').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Yugen_Bots") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002080756028"))
     
